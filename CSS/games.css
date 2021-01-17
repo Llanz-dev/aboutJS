@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.1s;
+}
+
+body {
+  background-color: #3d3d3d;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+a {
+  color: rgb(190, 226, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Nav */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b4b4b;
+  padding: 0 5%;
+}
+
+nav .icon {
+  font-size: 300%;
+  color: #fff200;
+}
+
+nav .navLink a {
+  color: #3d3d3d;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav .navLink a:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+/* Burger */
+
+.burger {
+  cursor: pointer;
+  display: none;
+}
+
+.burger .line1 {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.burger .line2 {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.burger .line3 {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+/* Mobile layout */
+
+@media only screen and (max-width: 700px) {
+  .container {
+    margin-top: 0rem;
+    padding: 0 5%;
+  }
+
+  /* Nav */
+
+  .navLink {
+    display: none;
+  }
+
+  .myLink {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    display: none;
+    background-color: #4b4b4b;
+    height: 96vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+
+  /* Right side */
+
+  .container .all-content .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container .all-content .right-side ul li,
+  .mini-title {
+    width: 100%;
+  }
+
+  .container .all-content .right-side ul {
+    padding: 0 0 0 1rem;
+  }
+
+  /* Left side */
+
+  .container .all-content .left-side ul {
+    padding-left: 1rem;
+  }
+
+  /* Burger */
+
+  .burger {
+    display: block;
+  }
+
+  /* Footer */
+
+  footer {
+    padding-top: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  footer .about-tutorial,
+  footer div {
+    width: 80%;
+  }
+
+  footer div {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  /* Icon */
+
+  nav .icon {
+    font-size: 200%;
+  }
+}
