@@ -253,31 +253,20 @@ footer div {
   display: none;
 }
 
-.burger .line1 {
-  width: 25px;
-  height: 2px;
-  background-color: white;
-  margin: 5px 0;
-}
-
-.burger .line2 {
-  width: 25px;
-  height: 2px;
-  background-color: white;
-  margin: 5px 0;
-}
-
+.burger .line1,
+.burger .line2,
 .burger .line3 {
-  width: 25px;
-  height: 2px;
+  width: 30px;
+  height: 5px;
   background-color: white;
   margin: 5px 0;
 }
 
 @media only screen and (max-width: 800px) {
   p,
-  a {
-    font-size: 19px;
+  a,
+  .container .all-content .left-side ul li {
+    font-size: 28px;
   }
   .container .all-content {
     margin-top: 3rem;
@@ -286,6 +275,10 @@ footer div {
   }
 
   /* Left side */
+
+  .left-side section.introduction .not-able {
+    width: 160%;
+  }
 
   .container .all-content .left-side {
     width: 100%;
@@ -303,6 +296,7 @@ footer div {
   }
 
   .container .all-content .left-side .introduction img {
+    margin-top: 3rem;
     width: 40%;
     height: 20%;
   }
@@ -329,7 +323,7 @@ footer div {
 
   .container .all-content .right-side {
     width: 50%;
-    margin-left: 0;
+    margin-left: -1rem;
   }
 
   .container .all-content .right-side .advertisement {
@@ -428,6 +422,12 @@ footer div {
 /* Mobile layout */
 
 @media only screen and (max-width: 700px) {
+  p,
+  a,
+  .container .all-content .left-side ul li {
+    font-size: 30px;
+  }
+
   .container {
     margin-top: 0rem;
     padding: 0 5%;
@@ -435,23 +435,34 @@ footer div {
 
   /* Nav */
 
+  nav .icon {
+    font-size: 400%;
+    color: #fff200;
+  }
+
   .navLink {
     display: none;
   }
 
   .myLink {
     position: absolute;
-    top: 2rem;
+    top: 5vh;
     right: 0;
     display: none;
     background-color: #4b4b4b;
-    height: 96vh;
+    height: 97vh;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     align-items: center;
+  }
+
+  .all-content .left-side .introduction img {
+    width: 55%;
+    height: 35%;
+    margin-top: 5rem;
   }
 
   /* Right side */
@@ -464,6 +475,7 @@ footer div {
   .container .all-content .right-side ul li,
   .mini-title {
     width: 100%;
+    font-size: 35px;
   }
 
   .container .all-content .right-side ul {
@@ -476,9 +488,20 @@ footer div {
     padding-left: 1rem;
   }
 
+  .left-side section.introduction .not-able {
+    width: 170%;
+  }
+
+  .container .all-content .left-side .introduction h2 {
+    color: #fff200;
+    margin-top: 4rem;
+    font-size: 50px;
+  }
+
   /* Burger */
 
   .burger {
+    font-size: 300px;
     display: block;
   }
 
@@ -503,10 +526,10 @@ footer div {
 }
 
 @media only screen and (max-width: 520px) {
-  /* Icon */
-
-  nav .icon {
-    font-size: 200%;
+  p,
+  a,
+  .container .all-content .left-side ul li {
+    font-size: 27px;
   }
 
   /* Left side */
@@ -520,7 +543,7 @@ footer div {
   }
 
   .left-side section.introduction .not-able {
-    width: 170%;
+    width: 140%;
   }
 }
 
@@ -545,6 +568,10 @@ footer div {
 
   .left-side section.introduction .intro-img {
     margin-top: 0rem;
+  }
+
+  .left-side section.introduction .not-able {
+    width: 120%;
   }
 
   /* Right side */
