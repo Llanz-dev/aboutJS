@@ -425,7 +425,7 @@ footer div {
   p,
   a,
   .container .all-content .left-side ul li {
-    font-size: 10px;
+    font-size: 25px;
   }
 
   .container {
@@ -493,9 +493,8 @@ footer div {
   }
 
   .container .all-content .left-side .introduction h2 {
-    color: #fff200;
     margin-top: 4rem;
-    font-size: 50px;
+    font-size: 35px;
   }
 
   /* Burger */
@@ -529,7 +528,7 @@ footer div {
   p,
   a,
   .container .all-content .left-side ul li {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   /* Left side */
@@ -555,15 +554,7 @@ footer div {
   }
 
   .all-content .left-side .introduction h2 {
-    color: #fff200;
-    margin-top: 4rem;
-    font-size: 35px;
-  }
-
-  a,
-  p,
-  .container .all-content .left-side ul li {
-    font-size: 25px;
+    font-size: 32px;
   }
 
   h2 {
