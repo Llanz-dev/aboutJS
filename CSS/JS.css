@@ -554,10 +554,16 @@ footer div {
     margin: 0.6rem 0;
   }
 
+  .all-content .left-side .introduction h2 {
+    color: #fff200;
+    margin-top: 4rem;
+    font-size: 35px;
+  }
+
   a,
   p,
   .container .all-content .left-side ul li {
-    font-size: 9px;
+    font-size: 25px;
   }
 
   h2 {
@@ -565,13 +571,16 @@ footer div {
   }
 
   /* Left side */
+  .container .all-content .left-side .introduction img {
+    margin-top: 10rem;
+  }
 
   .left-side section.introduction .intro-img {
-    margin-top: 0rem;
+    margin-top: 0;
   }
 
   .left-side section.introduction .not-able {
-    width: 120%;
+    width: 150%;
   }
 
   /* Right side */
@@ -582,21 +591,5 @@ footer div {
 
   footer li {
     margin-left: 1rem;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  /* Left side */
-
-  .left-side section.introduction .intro-img {
-    margin-top: -1rem;
-  }
-}
-
-@media only screen and (max-width: 374px) {
-  /* Left side */
-
-  .left-side section.introduction .intro-img {
-    margin-top: 1rem;
   }
 }
