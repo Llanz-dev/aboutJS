@@ -275,6 +275,10 @@ footer div {
 }
 
 @media only screen and (max-width: 800px) {
+  p,
+  a {
+    font-size: 19px;
+  }
   .container .all-content {
     margin-top: 3rem;
     display: flex;
