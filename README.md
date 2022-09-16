@@ -1,7 +1,7 @@
-# AboutJS
+# aboutJS
 
 ## Description
-AboutJS is a static website that displays information about JavaScript.
+aboutJS is a static website that displays information about JavaScript.
 
 - This site has different information in each section.
 - I use HTML, CSS and JavaScript to make this project.
