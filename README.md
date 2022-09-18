@@ -3,8 +3,12 @@
 ## Description
 aboutJS is a static website that displays information about JavaScript.
 
-- This site has different information in each section.
-- I use HTML, CSS and JavaScript to make this project.
+- I like JavaScript because it gives user interaction. So i decided to create information about JS.
+
+## Built With
+- HTML
+- CSS
+- JavaScript
 
 ## How to Run the Project
 Just clone this and open the **index.html**.
